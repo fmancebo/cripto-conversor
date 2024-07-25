@@ -5,12 +5,14 @@ export const GlobalStyle = createGlobalStyle`
 html {
   box-sizing: border-box;
   font-size: 16px;
+  height: 100%;
+  width: 100%;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+
 }
 
 body,
@@ -32,6 +34,7 @@ textarea {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
+  color: aliceblue;
 }
 
 a{
@@ -69,5 +72,6 @@ button {
   cursor: pointer;
   color: inherit;
 }
+
 
 `;
