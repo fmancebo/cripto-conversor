@@ -33,7 +33,7 @@ export default function MainPage() {
     } catch (error) {
       setConvertedValue("");
       setAmountInCrypto("");
-      setErrorMessage("Cripto não encontrada ou erro ao buscar preço."); // Mensagem de erro mais específica
+      setErrorMessage("Cripto não encontrada."); // Mensagem de erro mais específica
       setNameCripto("");
     }
   };
